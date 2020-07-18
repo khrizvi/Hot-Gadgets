@@ -1,9 +1,10 @@
 /* Navbar Section */
-.navbar img{
+.navbar img {
     width: 120px;
 }
+
 /* Slider Section */
-.carousel-inner .vertical{
+.carousel-inner .vertical {
     display: inline;
     word-spacing: 10px;
     letter-spacing: 3px;
@@ -17,24 +18,24 @@
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
-.button-design{
+
+.button-design {
     background: #000000 !important;
     border: none;
     margin-top: 5px;
 }
+
 .button-design:hover {
     background: #333232 !important;
 }
-.carousel-indicators{
-     margin-top: 15px;
-}
+
 .carousel-indicators li {
     background: #ff0000;
     width: 10px;
     height: 10px;
     padding: 1px;
     margin: 0 5px;
-;
+    ;
     border-top: none;
     border-bottom: none;
     border-radius: 50% !important;
@@ -43,17 +44,19 @@
     -ms-border-radius: 50% !important;
     -o-border-radius: 50% !important;
 }
+
 /* Product Section */
-.card{
+.card {
     border: none;
     box-shadow: 5px 5px 10px gray;
 }
 
 /* Product Category */
-.category-heading h2{
+.category-heading h2 {
     position: relative;
     display: inline-block;
 }
+
 .category-heading h2::after {
     content: '';
     position: absolute;
@@ -70,7 +73,7 @@
 }
 
 /* Categories */
-#category .shadwo-design{
+#category .shadwo-design {
     box-shadow: 5px 5px 10px gray;
     text-align: center;
     padding: 25px 0;
@@ -80,16 +83,18 @@
     -ms-border-radius: 35px 10px 35px 15px;
     -o-border-radius: 35px 10px 35px 15px;
 }
-#category .cart_img img{
+
+#category .cart_img img {
     width: 100%;
 }
 
 /* Contact */
-.contact-heading h2{
+.contact-heading h2 {
     position: relative;
     display: inline-block;
 }
-.contact-heading h2::after{
+
+.contact-heading h2::after {
     position: absolute;
     content: '';
     height: 5px;
@@ -102,4 +107,11 @@
     -moz-border-radius: 500px 500px 500px 500px;
     -ms-border-radius: 500px 500px 500px 500px;
     -o-border-radius: 500px 500px 500px 500px;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+    #category .perfume {
+        margin-top: 18px;
+    }
 }
