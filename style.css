@@ -1,0 +1,105 @@
+/* Navbar Section */
+.navbar img{
+    width: 120px;
+}
+/* Slider Section */
+.carousel-inner .vertical{
+    display: inline;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: lightgray;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.button-design{
+    background: #000000 !important;
+    border: none;
+    margin-top: 5px;
+}
+.button-design:hover {
+    background: #333232 !important;
+}
+.carousel-indicators{
+     margin-top: 15px;
+}
+.carousel-indicators li {
+    background: #ff0000;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    margin: 0 5px;
+;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+/* Product Section */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Product Category */
+.category-heading h2{
+    position: relative;
+    display: inline-block;
+}
+.category-heading h2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80%;
+    background-image: linear-gradient(90deg, #ffd000fb, #b9064bb6);
+    left: calc(20% - 10%);
+    bottom: -25%;
+    border-radius: 500px 500px 500px 500px;
+    -webkit-border-radius: 500px 500px 500px 500px;
+    -moz-border-radius: 500px 500px 500px 500px;
+    -ms-border-radius: 500px 500px 500px 500px;
+    -o-border-radius: 500px 500px 500px 500px;
+}
+
+/* Categories */
+#category .shadwo-design{
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 35px 10px 35px 15px;
+    -webkit-border-radius: 35px 10px 35px 15px;
+    -moz-border-radius: 35px 10px 35px 15px;
+    -ms-border-radius: 35px 10px 35px 15px;
+    -o-border-radius: 35px 10px 35px 15px;
+}
+#category .cart_img img{
+    width: 100%;
+}
+
+/* Contact */
+.contact-heading h2{
+    position: relative;
+    display: inline-block;
+}
+.contact-heading h2::after{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 80%;
+    background-image: linear-gradient(90deg, #ffd000fb, #b9064bb6);
+    left: calc(25% - 12%);
+    bottom: -20%;
+    border-radius: 500px 500px 500px 500px;
+    -webkit-border-radius: 500px 500px 500px 500px;
+    -moz-border-radius: 500px 500px 500px 500px;
+    -ms-border-radius: 500px 500px 500px 500px;
+    -o-border-radius: 500px 500px 500px 500px;
+}
